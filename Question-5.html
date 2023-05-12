@@ -1,0 +1,35 @@
+<script type="text/javascript">
+
+    function calc() {
+
+        var a = parseInt(prompt("Enter Value of A : "));
+        var b = parseInt(prompt("Enter Value of B : "));
+
+        var add = a + b;
+        var sub = a - b;
+        var multi = a * b;
+        var div = a / b;
+
+        var calc = prompt("Enter + , - , * , / ");
+        if (calc == '+') {
+            alert(+a + "+" + b + " = " + add);
+        }
+        else if (calc == '-') {
+            alert(+a + " - " + b + " = " + sub);
+        }
+        else if (calc == '*') {
+            alert(+a + " * " + b + " = " + multi);
+        }
+        else if (calc == '/') {
+            alert(+a + " / " + b + " = " + div);
+        }
+        else {
+            alert("Invalid Input");
+        }
+
+    }
+
+    calc();
+
+
+</script>

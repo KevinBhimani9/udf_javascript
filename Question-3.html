@@ -1,0 +1,43 @@
+<script type="text/javascript">
+
+function bigger(){
+    
+    var a = parseInt(prompt("Enter Value of A : "));
+    var b = parseInt(prompt("Enter Value of B : "));
+    var c = parseInt(prompt("Enter Value of C : "));
+    var d = parseInt(prompt("Enter Value of D : "));
+
+    if(a > b){
+        if(a > c){
+            if(a > d){
+                alert("A = "+a+" is Bigger Number");
+            }
+            else{
+                alert("D = "+d+" is Bigger Number");
+            }
+        }
+        else{
+            if(c > b){
+                if(c > d){
+                    alert("C = "+c+" is Bigger Number");
+                }
+                else{
+                    alert("D = "+d+" is Bigger Number");
+                }
+            }
+        }
+    }
+    else{
+        if(b > c){
+            if(b > d){
+                alert("B = "+b+" is Bigger Number");
+            }
+            else{
+                alert("D = "+d+" is Bigger Number");
+            }
+        }
+    }
+}
+bigger();
+
+</script>

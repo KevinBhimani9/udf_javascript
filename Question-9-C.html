@@ -1,0 +1,29 @@
+<script type="text/javascript">
+
+    //Rerutn with no Parameter Function
+
+    function tri(){
+
+        var a = parseInt(prompt("Enter 1st Angle of Triangle : "));
+        var b = parseInt(prompt("Enter 2nd Angle of Triangle : "));
+        var c = parseInt(prompt("Enter 3rd Angle of Triangle : "));
+
+        if ( a+b+c == 180){
+            return 1;
+        }
+        else{
+            return 2;
+        }
+
+    }
+    var ans = tri();
+
+    if(ans == 1){
+        alert("This is Valid Triangle");
+    }
+    else{
+        alert("This is Not Valid Triangle");
+    }
+
+
+</script>

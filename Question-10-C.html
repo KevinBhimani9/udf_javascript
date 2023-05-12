@@ -1,0 +1,24 @@
+<script type="text/javascript">
+
+    //return with no parameter
+    function vote(){
+      var a = parseInt(prompt("Enter Your Age : "));
+
+        if ( a == 18 || a > 18){
+            return 1;
+        }
+        else{
+            return 2;
+        }
+    }
+  var ans = vote();
+
+  if (ans == 1){
+    alert("Your are aligible for vote ");
+  }
+  else{
+    alert("Your are not aligible for vote ");
+  }
+    
+    
+    </script>

@@ -1,0 +1,26 @@
+<script type="text/javascript">
+
+    function a() {
+        var a = prompt("enter Value of A : ");
+        return a;
+    }
+
+    function b() {
+        var b = prompt("enter Value of B : ");
+        return b;
+    }
+    var x = a();
+    var y = b();
+    function swap(x, y) {
+
+        x = x + y;
+        y = x - y;
+        x = x - y;
+
+        alert("Value of A = " + x + " Value of B = " + y/100);
+
+    }
+    swap(x, y);
+
+
+</script>

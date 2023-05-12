@@ -1,0 +1,28 @@
+<script type="text/javascript">
+    
+    function calc(){
+
+        var a = parseInt(prompt("Enter Value of A : "));
+        var b = parseInt(prompt("Enter Value of B : "));
+        
+        var calc = prompt("Enter + , - , * , / : ");
+        switch(calc){
+
+            case '+' :
+                alert("Addition of A = "+a+" and B = "+b+" is = "+a+b);
+            break ;
+            case '-' :
+                alert("Subtraction of A = "+a+" and B = "+b+" is = "+a-b);
+            break ;
+            case '*' :
+                alert("Multiplication of A = "+a+" and B = "+b+" is = "+a*b);
+            break ;
+            case '/' :
+                alert("Division of A = "+a+" and B = "+b+" is = "+a/b);
+            break ;
+            default : alert("Invalid Input");
+        }
+    }
+    calc();
+
+</script>

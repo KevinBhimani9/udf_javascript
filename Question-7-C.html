@@ -1,0 +1,42 @@
+<script type="text/javascript">
+
+    //Return with No Parameter
+
+    function greater() {
+
+        var a = parseInt(prompt("Enter Vaue of A : "));
+        var b = parseInt(prompt("Enter Vaue of b : "));
+        var c = parseInt(prompt("Enter Vaue of c : "));
+
+        if (a > b) {
+            if (a > c) {
+                return 1;
+            }
+            else {
+                return 3;
+            }
+        }
+        else {
+            if (b > c) {
+                return 2;
+            }
+            else {
+                return 3;
+            }
+        }
+    }
+
+    var ans = greater();
+    if(ans == 1){
+        alert("A is bigger Number");
+    }
+    else if(ans==2){
+        alert("B is Bigger Number");
+    }
+    else if(ans==3){
+        alert("C is Bigger Number");
+    }
+    else{
+        alert("Invalid Input");
+    }
+</script>
